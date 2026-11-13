@@ -1,0 +1,31 @@
+# 构建产物
+build/
+out/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# VS / CMake
+.vs/
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# 运行时产生
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.exp
+*.lib
+results/*_mask.png
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
